@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    width: 600px;
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background-color: #017143;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover {
+    background-color: #01834d;
+}
+
+.imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+}
+
+.circulo {
+    background: #017143;
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(700px at right 700px);
+    z-index: -1;
+}
+
+.logo {
+    width: 80px;
+}
+
+.imagem-copo {
+    width: 340px;
+}
